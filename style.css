@@ -7,7 +7,7 @@
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.5;
-    color: #1a1a2e;
+    color: #3a4a2a;
     background-color: #ffffff;
 }
 
@@ -17,9 +17,8 @@ body {
     padding: 0 24px;
 }
 
-/* Header */
 .header {
-    background-color: #702ed0;
+    background-color: #5a6e4a;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -54,7 +53,7 @@ body {
 .ecg-line {
     width: 34px;
     height: 26px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'%3E%3Cpolyline points='5,30 20,30 30,10 40,50 50,25 60,35 75,10 85,30 95,30' fill='none' stroke='%23702ed0' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'%3E%3Cpolyline points='5,30 20,30 30,10 40,50 50,25 60,35 75,10 85,30 95,30' fill='none' stroke='%235a6e4a' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -67,10 +66,9 @@ body {
 }
 
 .logo-text span {
-    color: #90de00;
+    color: #d4b87a;
 }
 
-/* Contacts */
 .header-contacts {
     display: flex;
     align-items: center;
@@ -99,8 +97,8 @@ body {
 }
 
 .messenger-btn:hover {
-    background: #90de00;
-    color: #702ed0;
+    background: #d4b87a;
+    color: #5a6e4a;
 }
 
 [data-tooltip] {
@@ -113,7 +111,7 @@ body {
     bottom: -32px;
     left: 50%;
     transform: translateX(-50%);
-    background: #702ed0;
+    background: #5a6e4a;
     color: white;
     font-size: 0.7rem;
     padding: 4px 10px;
@@ -151,13 +149,12 @@ body {
 }
 
 .phone-link:hover {
-    background: #90de00;
-    color: #702ed0;
+    background: #d4b87a;
+    color: #5a6e4a;
 }
 
-/* Hero Section */
 .hero {
-    background: #f5f0ff;
+    background: #faf8f0;
     padding: 60px 0 48px;
 }
 
@@ -175,8 +172,8 @@ body {
 }
 
 .hero-badge {
-    background: #90de00;
-    color: #702ed0;
+    background: #d4b87a;
+    color: #5a6e4a;
     display: inline-block;
     padding: 6px 14px;
     border-radius: 40px;
@@ -190,12 +187,12 @@ body {
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 20px;
-    color: #702ed0;
+    color: #5a6e4a;
 }
 
 .hero p {
     font-size: 1.1rem;
-    color: #555;
+    color: #6a7a5a;
     max-width: 520px;
     margin-bottom: 28px;
 }
@@ -215,7 +212,7 @@ body {
 }
 
 .cta-btn {
-    background-color: #702ed0;
+    background-color: #5a6e4a;
     color: white;
     padding: 14px 32px;
     font-weight: 700;
@@ -227,13 +224,12 @@ body {
 }
 
 .cta-btn:hover {
-    background-color: #5a23a8;
+    background-color: #4a5a3a;
 }
 
-/* Sections */
 section {
     padding: 64px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #e8e4d8;
 }
 
 .section-title {
@@ -241,7 +237,7 @@ section {
     font-weight: 700;
     text-align: center;
     margin-bottom: 48px;
-    color: #702ed0;
+    color: #5a6e4a;
 }
 
 .services-grid {
@@ -255,33 +251,32 @@ section {
     border-radius: 20px;
     padding: 24px 16px;
     text-align: center;
-    border: 1px solid #e0d4f0;
+    border: 1px solid #ddd8cc;
     transition: 0.2s;
 }
 
 .service-card:hover {
-    border-color: #90de00;
+    border-color: #d4b87a;
     transform: translateY(-4px);
 }
 
 .service-card i {
     font-size: 2rem;
-    color: #702ed0;
+    color: #5a6e4a;
     margin-bottom: 12px;
 }
 
 .service-card h3 {
     font-size: 1rem;
     margin-bottom: 6px;
-    color: #702ed0;
+    color: #5a6e4a;
 }
 
 .service-card p {
-    color: #666;
+    color: #8a9a7a;
     font-size: 0.8rem;
 }
 
-/* Tariffs */
 .tariffs-simple {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -293,23 +288,23 @@ section {
     border-radius: 20px;
     padding: 20px 16px;
     text-align: center;
-    border: 1px solid #e0d4f0;
+    border: 1px solid #ddd8cc;
     transition: 0.2s;
 }
 
 .tariff-card:hover {
-    border-color: #90de00;
+    border-color: #d4b87a;
     transform: translateY(-4px);
 }
 
 .tariff-card h3 {
     font-size: 1.2rem;
     margin-bottom: 6px;
-    color: #702ed0;
+    color: #5a6e4a;
 }
 
 .tariff-card p {
-    color: #666;
+    color: #8a9a7a;
     font-size: 0.8rem;
     margin-bottom: 12px;
 }
@@ -317,12 +312,11 @@ section {
 .tariff-price {
     font-size: 1.4rem;
     font-weight: 800;
-    color: #90de00;
+    color: #d4b87a;
 }
 
-/* Contact block */
 .contact-block {
-    background: #702ed0;
+    background: #5a6e4a;
     color: white;
     border-radius: 48px;
     text-align: center;
@@ -346,115 +340,40 @@ section {
 }
 
 .contact-phone a:hover {
-    color: #90de00;
+    color: #d4b87a;
 }
 
 footer {
-    background: #702ed0;
+    background: #5a6e4a;
     color: rgba(255,255,255,0.7);
     padding: 32px 0;
     text-align: center;
     font-size: 0.85rem;
 }
 
-/* ========== АДАПТИВ ПОД ТЕЛЕФОН ========== */
 @media (max-width: 768px) {
-    /* Текст и кнопка по центру */
-    .hero {
-        text-align: center;
-    }
-    
-    .hero-content {
-        text-align: center;
-    }
-    
-    .hero p {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    /* Картинка скрывается */
-    .hero-image {
-        display: none;
-    }
-    
-    /* Услуги и тарифы — 2 в ряд */
-    .services-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
-    }
-    
-    .tariffs-simple {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
-    }
-    
-    /* Уменьшаем отступы секций */
-    section {
-        padding: 40px 0;
-    }
-    
-    .section-title {
-        font-size: 1.6rem;
-        margin-bottom: 24px;
-    }
-    
-    /* Шапка по центру */
-    .nav-container {
-        flex-direction: column;
-        gap: 12px;
-    }
-    
-    .header-contacts {
-        justify-content: center;
-    }
-    
-    .container {
-        padding: 0 16px;
-    }
-    
-    .contact-phone {
-        font-size: 1.5rem;
-    }
-    
-    /* Карточки компактнее */
-    .service-card {
-        padding: 16px 12px;
-    }
-    
-    .service-card i {
-        font-size: 1.6rem;
-    }
-    
-    .service-card h3 {
-        font-size: 0.85rem;
-    }
-    
-    .tariff-card {
-        padding: 16px 12px;
-    }
-    
-    .tariff-card h3 {
-        font-size: 1rem;
-    }
-    
-    .tariff-price {
-        font-size: 1.2rem;
-    }
+    .hero { text-align: center; }
+    .hero-content { text-align: center; }
+    .hero p { margin-left: auto; margin-right: auto; }
+    .hero-image { display: none; }
+    .services-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .tariffs-simple { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    section { padding: 40px 0; }
+    .section-title { font-size: 1.6rem; margin-bottom: 24px; }
+    .nav-container { flex-direction: column; gap: 12px; }
+    .header-contacts { justify-content: center; }
+    .container { padding: 0 16px; }
+    .contact-phone { font-size: 1.5rem; }
+    .service-card { padding: 16px 12px; }
+    .service-card i { font-size: 1.6rem; }
+    .service-card h3 { font-size: 0.85rem; }
+    .tariff-card { padding: 16px 12px; }
+    .tariff-card h3 { font-size: 1rem; }
+    .tariff-price { font-size: 1.2rem; }
 }
 
 @media (max-width: 480px) {
-    /* На очень маленьких экранах текст помельче */
-    .hero h1 {
-        font-size: 1.8rem;
-    }
-    
-    .hero p {
-        font-size: 0.95rem;
-    }
-    
-    .cta-btn {
-        padding: 12px 24px;
-        font-size: 0.9rem;
-    }
+    .hero h1 { font-size: 1.8rem; }
+    .hero p { font-size: 0.95rem; }
+    .cta-btn { padding: 12px 24px; font-size: 0.9rem; }
 }
