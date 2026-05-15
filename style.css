@@ -7,7 +7,7 @@
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.5;
-    color: #3a4a2a;
+    color: #0a2a3a;
     background-color: #ffffff;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-    background-color: #5a6e4a;
+    background-color: #0b3b5f;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -53,7 +53,7 @@ body {
 .ecg-line {
     width: 34px;
     height: 26px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'%3E%3Cpolyline points='5,30 20,30 30,10 40,50 50,25 60,35 75,10 85,30 95,30' fill='none' stroke='%235a6e4a' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'%3E%3Cpolyline points='5,30 20,30 30,10 40,50 50,25 60,35 75,10 85,30 95,30' fill='none' stroke='%230b3b5f' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -66,7 +66,7 @@ body {
 }
 
 .logo-text span {
-    color: #d4b87a;
+    color: #00a8e8;
 }
 
 .header-contacts {
@@ -97,8 +97,8 @@ body {
 }
 
 .messenger-btn:hover {
-    background: #d4b87a;
-    color: #5a6e4a;
+    background: #00a8e8;
+    color: #0b3b5f;
 }
 
 [data-tooltip] {
@@ -111,7 +111,7 @@ body {
     bottom: -32px;
     left: 50%;
     transform: translateX(-50%);
-    background: #5a6e4a;
+    background: #0b3b5f;
     color: white;
     font-size: 0.7rem;
     padding: 4px 10px;
@@ -149,12 +149,12 @@ body {
 }
 
 .phone-link:hover {
-    background: #d4b87a;
-    color: #5a6e4a;
+    background: #00a8e8;
+    color: #0b3b5f;
 }
 
 .hero {
-    background: #faf8f0;
+    background: #f0f8ff;
     padding: 60px 0 48px;
 }
 
@@ -172,8 +172,8 @@ body {
 }
 
 .hero-badge {
-    background: #d4b87a;
-    color: #5a6e4a;
+    background: #00a8e8;
+    color: #0b3b5f;
     display: inline-block;
     padding: 6px 14px;
     border-radius: 40px;
@@ -187,12 +187,12 @@ body {
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 20px;
-    color: #5a6e4a;
+    color: #0b3b5f;
 }
 
 .hero p {
     font-size: 1.1rem;
-    color: #6a7a5a;
+    color: #4a6a7a;
     max-width: 520px;
     margin-bottom: 28px;
 }
@@ -212,7 +212,7 @@ body {
 }
 
 .cta-btn {
-    background-color: #5a6e4a;
+    background-color: #0b3b5f;
     color: white;
     padding: 14px 32px;
     font-weight: 700;
@@ -224,12 +224,12 @@ body {
 }
 
 .cta-btn:hover {
-    background-color: #4a5a3a;
+    background-color: #072a45;
 }
 
 section {
     padding: 64px 0;
-    border-bottom: 1px solid #e8e4d8;
+    border-bottom: 1px solid #dce8f0;
 }
 
 .section-title {
@@ -237,7 +237,7 @@ section {
     font-weight: 700;
     text-align: center;
     margin-bottom: 48px;
-    color: #5a6e4a;
+    color: #0b3b5f;
 }
 
 .services-grid {
@@ -251,29 +251,29 @@ section {
     border-radius: 20px;
     padding: 24px 16px;
     text-align: center;
-    border: 1px solid #ddd8cc;
+    border: 1px solid #c5dce8;
     transition: 0.2s;
 }
 
 .service-card:hover {
-    border-color: #d4b87a;
+    border-color: #00a8e8;
     transform: translateY(-4px);
 }
 
 .service-card i {
     font-size: 2rem;
-    color: #5a6e4a;
+    color: #0b3b5f;
     margin-bottom: 12px;
 }
 
 .service-card h3 {
     font-size: 1rem;
     margin-bottom: 6px;
-    color: #5a6e4a;
+    color: #0b3b5f;
 }
 
 .service-card p {
-    color: #8a9a7a;
+    color: #6a8a9a;
     font-size: 0.8rem;
 }
 
@@ -288,23 +288,23 @@ section {
     border-radius: 20px;
     padding: 20px 16px;
     text-align: center;
-    border: 1px solid #ddd8cc;
+    border: 1px solid #c5dce8;
     transition: 0.2s;
 }
 
 .tariff-card:hover {
-    border-color: #d4b87a;
+    border-color: #00a8e8;
     transform: translateY(-4px);
 }
 
 .tariff-card h3 {
     font-size: 1.2rem;
     margin-bottom: 6px;
-    color: #5a6e4a;
+    color: #0b3b5f;
 }
 
 .tariff-card p {
-    color: #8a9a7a;
+    color: #6a8a9a;
     font-size: 0.8rem;
     margin-bottom: 12px;
 }
@@ -312,11 +312,11 @@ section {
 .tariff-price {
     font-size: 1.4rem;
     font-weight: 800;
-    color: #d4b87a;
+    color: #00a8e8;
 }
 
 .contact-block {
-    background: #5a6e4a;
+    background: #0b3b5f;
     color: white;
     border-radius: 48px;
     text-align: center;
@@ -340,11 +340,11 @@ section {
 }
 
 .contact-phone a:hover {
-    color: #d4b87a;
+    color: #00a8e8;
 }
 
 footer {
-    background: #5a6e4a;
+    background: #0b3b5f;
     color: rgba(255,255,255,0.7);
     padding: 32px 0;
     text-align: center;
