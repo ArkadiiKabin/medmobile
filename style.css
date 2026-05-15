@@ -103,7 +103,6 @@ body {
     color: #702ed0;
 }
 
-/* Tooltip */
 [data-tooltip] {
     position: relative;
 }
@@ -209,10 +208,10 @@ body {
     border: none;
 }
 
-.hero-image i {
-    font-size: 5rem;
-    color: #702ed0;
-    margin-bottom: 12px;
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 24px;
 }
 
 .cta-btn {
@@ -254,7 +253,7 @@ section {
 .service-card {
     background: #ffffff;
     border-radius: 20px;
-    padding: 28px 20px;
+    padding: 24px 16px;
     text-align: center;
     border: 1px solid #e0d4f0;
     transition: 0.2s;
@@ -266,20 +265,20 @@ section {
 }
 
 .service-card i {
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: #702ed0;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .service-card h3 {
-    font-size: 1.2rem;
-    margin-bottom: 8px;
+    font-size: 1rem;
+    margin-bottom: 6px;
     color: #702ed0;
 }
 
 .service-card p {
     color: #666;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 /* Tariffs */
@@ -292,7 +291,7 @@ section {
 .tariff-card {
     background: #ffffff;
     border-radius: 20px;
-    padding: 24px;
+    padding: 20px 16px;
     text-align: center;
     border: 1px solid #e0d4f0;
     transition: 0.2s;
@@ -304,19 +303,19 @@ section {
 }
 
 .tariff-card h3 {
-    font-size: 1.4rem;
-    margin-bottom: 8px;
+    font-size: 1.2rem;
+    margin-bottom: 6px;
     color: #702ed0;
 }
 
 .tariff-card p {
     color: #666;
-    font-size: 0.9rem;
-    margin-bottom: 16px;
+    font-size: 0.8rem;
+    margin-bottom: 12px;
 }
 
 .tariff-price {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: 800;
     color: #90de00;
 }
@@ -350,7 +349,6 @@ section {
     color: #90de00;
 }
 
-/* Footer */
 footer {
     background: #702ed0;
     color: rgba(255,255,255,0.7);
@@ -359,28 +357,104 @@ footer {
     font-size: 0.85rem;
 }
 
-/* Responsive */
+/* ========== АДАПТИВ ПОД ТЕЛЕФОН ========== */
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2rem;
+    /* Текст и кнопка по центру */
+    .hero {
+        text-align: center;
     }
+    
+    .hero-content {
+        text-align: center;
+    }
+    
+    .hero p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* Картинка скрывается */
+    .hero-image {
+        display: none;
+    }
+    
+    /* Услуги и тарифы — 2 в ряд */
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    
+    .tariffs-simple {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    
+    /* Уменьшаем отступы секций */
+    section {
+        padding: 40px 0;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+        margin-bottom: 24px;
+    }
+    
+    /* Шапка по центру */
     .nav-container {
         flex-direction: column;
         gap: 12px;
     }
+    
     .header-contacts {
         justify-content: center;
     }
+    
     .container {
         padding: 0 16px;
     }
-    section {
-        padding: 40px 0;
-    }
+    
     .contact-phone {
         font-size: 1.5rem;
     }
+    
+    /* Карточки компактнее */
+    .service-card {
+        padding: 16px 12px;
+    }
+    
+    .service-card i {
+        font-size: 1.6rem;
+    }
+    
+    .service-card h3 {
+        font-size: 0.85rem;
+    }
+    
+    .tariff-card {
+        padding: 16px 12px;
+    }
+    
+    .tariff-card h3 {
+        font-size: 1rem;
+    }
+    
     .tariff-price {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* На очень маленьких экранах текст помельче */
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero p {
+        font-size: 0.95rem;
+    }
+    
+    .cta-btn {
+        padding: 12px 24px;
+        font-size: 0.9rem;
     }
 }
